@@ -43,7 +43,7 @@ const Product = (props, { product }) => {
   useEffect(() => {
 
     const productId = props.match.params.productId;
-    Axios.get(`${API}/api/product/products_by_id?id=${productId}&type=single`)
+    Axios.get(`${API}/product/products_by_id?id=${productId}&type=single`)
       .then(response => {
         setProduct(response.data[0])
       })
