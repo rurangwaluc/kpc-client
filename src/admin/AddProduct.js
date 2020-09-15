@@ -111,7 +111,7 @@ const AddProduct = (props) => {
             category: category,
         }
 
-        Axios.post(`${API}/api/product/create`, variables, formData)
+        Axios.post(`${API}/product/create`, variables, formData)
             .then(response => {
                 if (response.data.success) {
                     toast.success('Product Successfully Uploaded')
