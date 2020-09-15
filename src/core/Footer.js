@@ -100,7 +100,7 @@ const Footer = () => {
             </div>
             <div className="footer-copyright">
               <p id="copy">
-                Developed By <Link to="">Treluc</Link>
+                Developed By <Link to="www.trelucsolutions.com" target="_blank">Treluc</Link>
               </p>
             </div>
 
